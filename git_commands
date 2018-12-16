@@ -1,3 +1,7 @@
 git init
 git add -A
 git commit -m "first commit"
+git remote add origin git@github.com:alde103/git_playground.git
+git push -u origin master
+git checkout -b new_branch_from_master
+git checkout -b new_branch_from_new_branch
